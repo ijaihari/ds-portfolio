@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@import "tailwindcss";
+
+@layer components {
+
+.nav-btn {
+  @apply px-3 py-2 rounded-full
+         text-sm font-semibold
+         border-2 border-transparent
+         transition-all duration-300
+         hover:bg-[#f5f6f8cf]
+         hover:border-[#e2e8f0c0];
+}
+
+.mobile-nav-item {
+  @apply w-full px-4 py-3
+         rounded-xl
+         text-sm font-semibold
+         transition-colors duration-200
+         hover:bg-[#f5f6f8cf];
+}
+
+
+ .hero-link {
+  @apply w-full
+         px-4 py-2.5 sm:py-3
+         text-sm sm:text-base font-semibold
+         border border-[#E2E8F0]
+         rounded-xl
+         bg-white
+         flex items-center justify-center gap-2
+         transition-all duration-300
+         hover:shadow-sm hover:border-black
+         hover:bg-[#181717] hover:text-white
+         backdrop-blur-md;
+}
+
+
+
+  .gradient-text {
+  @apply text-transparent bg-clip-text
+         bg-[linear-gradient(90deg,#0096FF_0%,#BB64FF_35%,#F2416B_70%,#EB7500_100%)];
+}
+
+}
