@@ -36,7 +36,7 @@ export function Navbar() {
         className="hidden md:flex fixed top-6 left-1/2 -translate-x-1/2 z-50
                    items-center gap-1 px-1 py-1
                    text-sm font-semibold
-                   backdrop-blur-sm bg-white/40
+                   backdrop-blur-sm  bg-gray-300/20
                    border border-gray-300
                    rounded-full"
       >
@@ -49,8 +49,8 @@ export function Navbar() {
 
       {/* ================= Mobile / Tablet Navbar ================= */}
       <nav className="md:hidden fixed top-0 left-0 right-0 z-50
-                      bg-white/70 backdrop-blur-md
-                      border-b border-[#e2e8f0c0]">
+                      bg-gray-300/20 backdrop-blur-md
+                      border-b border-gray-300">
 
         {/* Top bar */}
         <div className="flex items-center justify-between px-4 py-2">

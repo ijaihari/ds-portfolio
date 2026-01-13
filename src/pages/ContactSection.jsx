@@ -14,7 +14,7 @@ export function ContactSection() {
             className="
         py-12 sm:py-16 lg:py-20
         px-4 sm:px-6 lg:px-8
-        scroll-mt-24
+        scroll-mt-10
       "
         >
             <div className="max-w-6xl mx-auto">
@@ -61,7 +61,7 @@ export function ContactSection() {
                                 <FaLinkedinIn />
                             </a>
                             <a
-                                href="https://twitter.com/"
+                                href="https://x.com/ijaihari"
                                 target="_blank"
                                 className="hover:text-black transition"
                                 aria-label="X"
@@ -69,7 +69,7 @@ export function ContactSection() {
                                 <FaXTwitter />
                             </a>
                             <a
-                                href="https://instagram.com/"
+                                href="https://instagram.com/ijaihari"
                                 target="_blank"
                                 className="hover:text-black transition"
                                 aria-label="Instagram"
@@ -143,7 +143,7 @@ export function ContactSection() {
                         <button
                             type="submit"
                             className="w-fit mt-2
-                 rounded-full
+                 rounded-2xl
                  bg-black text-white
                  px-8 py-2.5
                  text-sm sm:text-base
