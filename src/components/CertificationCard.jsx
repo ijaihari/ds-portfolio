@@ -2,7 +2,7 @@ export function CertificationCard({ title, subtitle, date, image }) {
   return (
     <div
       className="flex items-center gap-4
-                 border border-gray-200
+                 border border-gray-300
                  rounded-2xl
                  p-4 sm:p-5
                  bg-white"

@@ -37,7 +37,7 @@ export function Navbar() {
                    items-center gap-1 px-1 py-1
                    text-sm font-semibold
                    backdrop-blur-sm bg-white/40
-                   border border-[#e2e8f0c0]
+                   border border-gray-300
                    rounded-full"
       >
         {NAV_ITEMS.map(item => (

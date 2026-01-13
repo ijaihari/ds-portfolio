@@ -5,7 +5,7 @@ export function AboutCard({
   points,
 }) {
   return (
-    <div className="border border-gray-200 rounded-2xl
+    <div className="border border-gray-300 rounded-2xl
                     p-5 sm:p-6 lg:p-8">
 
       {/* Header */}

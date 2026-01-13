@@ -3,8 +3,8 @@ import { FaFilePdf, FaLinkedin, FaGithub } from "react-icons/fa6";
 /* px-4 sm:px-6 pt-16 sm:py-20 */
 export function HeroSection() {
   return (
-    <section id="home" className="flex items-center justify-center w-full min-h-screen px-4 sm:px-6 scroll-mt-10">
-      <div className="w-full max-w-6xl flex flex-col items-center text-center py-14 sm:py-20 leading-tight">
+    <section id="home" className="flex items-center justify-center w-full sm:min-h-screen px-4 sm:px-6 scroll-mt-10">
+      <div className="w-full max-w-6xl flex flex-col items-center text-center pt-25 sm:pt-0  leading-tight">
 
         {/* Project link */}
         <a href="#" className="mb-5">

@@ -32,7 +32,7 @@ body {
   @apply w-full
          px-4 py-2.5 sm:py-3
          text-sm sm:text-base font-semibold
-         border border-[#E2E8F0]
+         border border-gray-300
          rounded-xl
          bg-white
          flex items-center justify-center gap-2

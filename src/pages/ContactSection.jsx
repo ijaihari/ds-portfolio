@@ -109,9 +109,9 @@ export function ContactSection() {
                                 name="from_name"
                                 placeholder="Name"
                                 required
-                                className="w-full rounded-xl border border-gray-200
+                                className="w-full rounded-xl border border-gray-300
                    px-4 py-3 text-sm sm:text-base
-                   focus:outline-none focus:border-gray-400"
+                   focus:outline-none focus:border-gray-500"
                             />
 
                             <input
@@ -119,9 +119,9 @@ export function ContactSection() {
                                 name="email"
                                 placeholder="Email"
                                 required
-                                className="w-full rounded-xl border border-gray-200
+                                className="w-full rounded-xl border border-gray-300
                    px-4 py-3 text-sm sm:text-base
-                   focus:outline-none focus:border-gray-400"
+                   focus:outline-none focus:border-gray-500"
                             />
                         </div>
 
@@ -131,9 +131,9 @@ export function ContactSection() {
                             rows="5"
                             placeholder="Write your message"
                             required
-                            className="w-full rounded-xl border border-gray-200
+                            className="w-full rounded-xl border border-gray-300
                  px-4 py-3 text-sm sm:text-base
-                 focus:outline-none focus:border-gray-400 resize-none"
+                 focus:outline-none focus:border-gray-500 resize-none"
                         />
 
                         {/* Optional: spam protection */}

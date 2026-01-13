@@ -2,7 +2,7 @@ export function ContactCard({ title, children, className = "" }) {
   return (
     <div
       className={`
-        border border-gray-200
+        border border-gray-300
         rounded-2xl
         p-5 sm:p-6
         bg-white
