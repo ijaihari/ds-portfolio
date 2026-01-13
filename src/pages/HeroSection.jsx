@@ -4,7 +4,7 @@ import { FaFilePdf, FaLinkedin, FaGithub } from "react-icons/fa6";
 export function HeroSection() {
   return (
     <section id="home" className="flex items-center justify-center w-full sm:min-h-screen px-4 sm:px-6 scroll-mt-10">
-      <div className="w-full max-w-6xl flex flex-col items-center text-center pt-25 sm:pt-0  leading-tight">
+      <div className="w-full max-w-6xl flex flex-col items-center text-center pt-30 pb-10 sm:pt-0 sm:pb-0 leading-tight">
 
         {/* Project link */}
         <a href="#" className="mb-5">
