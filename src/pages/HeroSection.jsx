@@ -1,9 +1,9 @@
 import { TbExternalLink } from "react-icons/tb";
 import { FaFilePdf, FaLinkedin, FaGithub } from "react-icons/fa6";
-
+/* px-4 sm:px-6 pt-16 sm:py-20 */
 export function HeroSection() {
   return (
-    <section className="flex items-center justify-center w-full px-4 sm:px-6 pt-16 sm:py-20">
+    <section className="flex items-center justify-center w-full min-h-screen">
       <div className="w-full max-w-6xl flex flex-col items-center text-center py-14 sm:py-20 leading-tight">
 
         {/* Project link */}
