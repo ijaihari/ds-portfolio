@@ -1,17 +1,18 @@
+
 import { AboutSection } from "./pages/AboutSection.jsx";
+import { ContactSection } from "./pages/ContactSection.jsx";
 import { HeroSection } from "./pages/HeroSection.jsx";
 import { Navbar } from "./pages/NavBar.jsx";
+import { SkillsSection } from "./pages/SkillsSection.jsx";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <section id="home" className="scroll-mt-10">
-        <HeroSection />
-      </section>
-      <section id="about" className="scroll-mt-10">
-        <AboutSection />
-      </section>
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ContactSection/>
     </div>
   );
 }

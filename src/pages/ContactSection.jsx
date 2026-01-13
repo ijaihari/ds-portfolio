@@ -1,0 +1,162 @@
+import { SectionTitle } from "../components/SectionTitle";
+import { ContactCard } from "../components/ContactCard";
+import {
+    FaGithub,
+    FaLinkedinIn,
+    FaXTwitter,
+    FaInstagram,
+} from "react-icons/fa6";
+
+export function ContactSection() {
+    return (
+        <section
+            id="contact"
+            className="
+        py-12 sm:py-16 lg:py-20
+        px-4 sm:px-6 lg:px-8
+        scroll-mt-24
+      "
+        >
+            <div className="max-w-6xl mx-auto">
+
+                {/* Section heading */}
+                <SectionTitle
+                    title="Let’s Connect"
+                    subtitle="I'm just one message away"
+                />
+
+                {/* Top cards */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-6">
+
+                    {/* Reach Out */}
+                    <ContactCard title="Reach Out">
+                        <p className="text-sm sm:text-base text-gray-600">
+                            Email:
+                            <a
+                                href="mailto:sjaiharinataraj@gmail.com"
+                                className="ml-1 text-black font-medium hover:underline"
+                            >
+                                sjaiharinataraj@gmail.com
+                            </a>
+                        </p>
+                    </ContactCard>
+
+                    {/* Social */}
+                    <ContactCard title="Social">
+                        <div className="flex items-center gap-5 text-gray-600 text-2xl">
+                            <a
+                                href="https://github.com/ijaihari"
+                                target="_blank"
+                                className="hover:text-black transition"
+                                aria-label="GitHub"
+                            >
+                                <FaGithub />
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/ijaihari/"
+                                target="_blank"
+                                className="hover:text-black transition"
+                                aria-label="LinkedIn"
+                            >
+                                <FaLinkedinIn />
+                            </a>
+                            <a
+                                href="https://twitter.com/"
+                                target="_blank"
+                                className="hover:text-black transition"
+                                aria-label="X"
+                            >
+                                <FaXTwitter />
+                            </a>
+                            <a
+                                href="https://instagram.com/"
+                                target="_blank"
+                                className="hover:text-black transition"
+                                aria-label="Instagram"
+                            >
+                                <FaInstagram />
+                            </a>
+                        </div>
+                    </ContactCard>
+
+                </div>
+
+                {/* Message form */}
+                <ContactCard title="Message">
+                    <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                        className="flex flex-col gap-4"
+                    >
+                        {/* 🔑 Web3Forms Access Key */}
+                        <input
+                            type="hidden"
+                            name="access_key"
+                            value="43f8ee79-e6d0-43b2-a0d9-245a0546b9e1"
+                        />
+
+                        {/* Optional: redirect after submit */}
+                        {/* <input
+                            type="hidden"
+                            name="redirect"
+                            value="https://jaihari.dev/thank-you"
+                        /> */}
+
+                        {/* Name + Email */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <input
+                                type="text" id="name"
+                                name="from_name"
+                                placeholder="Name"
+                                required
+                                className="w-full rounded-xl border border-gray-200
+                   px-4 py-3 text-sm sm:text-base
+                   focus:outline-none focus:border-gray-400"
+                            />
+
+                            <input
+                                type="email" id="email"
+                                name="email"
+                                placeholder="Email"
+                                required
+                                className="w-full rounded-xl border border-gray-200
+                   px-4 py-3 text-sm sm:text-base
+                   focus:outline-none focus:border-gray-400"
+                            />
+                        </div>
+
+                        {/* Message */}
+                        <textarea
+                            name="message" id="message"
+                            rows="5"
+                            placeholder="Write your message"
+                            required
+                            className="w-full rounded-xl border border-gray-200
+                 px-4 py-3 text-sm sm:text-base
+                 focus:outline-none focus:border-gray-400 resize-none"
+                        />
+
+                        {/* Optional: spam protection */}
+                        <input type="checkbox" name="botcheck" className="hidden" />
+
+                        {/* Send button */}
+                        <button
+                            type="submit"
+                            className="w-fit mt-2
+                 rounded-full
+                 bg-black text-white
+                 px-8 py-2.5
+                 text-sm sm:text-base
+                 font-semibold
+                 hover:opacity-90 transition"
+                        >
+                            Send
+                        </button>
+                    </form>
+                </ContactCard>
+
+
+            </div>
+        </section>
+    );
+}

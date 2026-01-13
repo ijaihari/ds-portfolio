@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const NAV_ITEMS = [
@@ -12,6 +12,22 @@ const NAV_ITEMS = [
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  const [pastHome, setPastHome] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const home = document.getElementById("home");
+      if (!home) return;
+
+      const threshold = home.offsetHeight - 80;
+      setPastHome(window.scrollY > threshold);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
@@ -38,15 +54,28 @@ export function Navbar() {
 
         {/* Top bar */}
         <div className="flex items-center justify-between px-4 py-2">
-          <div className="flex flex-col">
-            <span className="px-3 text-md font-semibold tracking-tight">
-              Jai Hari Nataraj
-            </span>
-            <span className="px-3 text-gray-500 text-sm font-base tracking-tight">
-              Data Analyst
-            </span>
+
+          {/* LEFT AREA */}
+          <div className="px-3 transition-all duration-300">
+            {!pastHome ? (
+              /* 🔹 Above Home → italic <J> */
+              <span className="text-gray-900 text-2xl italic font-bold tracking-tight">
+                JAI
+              </span>
+            ) : (
+              /* 🔹 Below Home → Name + Role */
+              <div className="flex flex-col leading-tight">
+                <span className="text-md font-semibold tracking-tight">
+                  Jai Hari Nataraj
+                </span>
+                <span className="text-sm text-gray-500 tracking-tight">
+                  Data Analyst
+                </span>
+              </div>
+            )}
           </div>
 
+          {/* Menu toggle */}
           <button
             onClick={() => setOpen(!open)}
             className="p-2 rounded-md cursor-pointer"

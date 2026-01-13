@@ -7,7 +7,7 @@ export function AboutSection() {
     return (
         <section
             id="about"
-            className="py-12 sm:py-16 lg:py-20
+            className="py-12 sm:py-16 lg:py-20 scroll-mt-10
                  px-4 sm:px-6 lg:px-8"
         >
             <div className="max-w-6xl mx-auto">
