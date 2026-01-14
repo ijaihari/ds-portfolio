@@ -7,14 +7,19 @@ export function Footer() {
         className="
           max-w-6xl mx-auto
           px-4 sm:px-6 lg:px-8
-          py-6
+          py-6 sm:py-8
           flex justify-center
-          text-sm
-          text-gray-600
+          text-center
         "
       >
-        <span>
-          © {year} | Designed &amp; Developed by{" "}
+        <span
+          className="
+            text-xs sm:text-sm
+            text-gray-600
+            leading-relaxed
+          "
+        >
+          © {year} — Designed &amp; Developed by{" "}
           <a
             href="https://www.linkedin.com/in/ijaihari/"
             target="_blank"
