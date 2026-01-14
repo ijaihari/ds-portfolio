@@ -1,5 +1,6 @@
 
 import { AboutSection } from "./pages/AboutSection.jsx";
+import { AchievementsSection } from "./pages/AchievementsSection.jsx";
 import { ContactSection } from "./pages/ContactSection.jsx";
 import { HeroSection } from "./pages/HeroSection.jsx";
 import { Navbar } from "./pages/NavBar.jsx";
@@ -14,6 +15,7 @@ function App() {
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
+      <AchievementsSection />
       <ContactSection />
     </div>
   );

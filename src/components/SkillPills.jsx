@@ -3,7 +3,7 @@ export function SkillPills({ title, skills = [] }) {
     <div className="flex flex-col gap-3">
       
       {/* Category title */}
-      <h3 className="text-sm sm:text-base font-semibold text-black">
+      <h3 className="text-lg sm:text-xl font-semibold text-black">
         {title}
       </h3>
 

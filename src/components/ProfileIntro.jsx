@@ -1,28 +1,15 @@
-import { CertificationCard } from "./CertificationCard";
+import { CertifiedCard } from "./CertifiedCard";
 
 export function ProfileIntro({ imageSrc, description }) {
-    const certifications = [
+    const Certified = [
         {
             id: 1,
-            title: "IBM Certified Data Analyst",
-            subtitle: "Professional",
+            title: "IBM Certified Data Analyst Professional",
             date: "January 2026",
             image: "/badges/data-analysis-with-python.png",
-        },
-        {
-            id: 2,
-            title: "IBM Certified Data Analyst",
-            subtitle: "Professional",
-            date: "January 2026",
-            image: "/badges/data-analysis-with-python.png",
-        },
-        {
-            id: 3,
-            title: "IBM Certified Data Analyst",
-            subtitle: "Professional",
-            date: "January 2026",
-            image: "/badges/data-analysis-with-python.png",
-        },
+            credLink: "https://www.credly.com/",
+        }
+
     ];
 
     return (
@@ -48,7 +35,7 @@ export function ProfileIntro({ imageSrc, description }) {
                     loading="lazy"
                 />
 
-                {/* RIGHT: Description + Certifications */}
+                {/* RIGHT: Description + Certified */}
                 <div className="flex flex-col gap-6">
 
                     {/* Description */}
@@ -58,15 +45,16 @@ export function ProfileIntro({ imageSrc, description }) {
                         {description}
                     </p>
 
-                    {/* Certifications aligned with description */}
+                    {/* Certified */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-                        {certifications.map((cert) => (
-                            <CertificationCard
+                        {Certified.map((cert) => (
+                            <CertifiedCard
                                 key={cert.id}
                                 title={cert.title}
                                 subtitle={cert.subtitle}
                                 date={cert.date}
                                 image={cert.image}
+                                credLink={cert.credLink}
                             />
                         ))}
                     </div>

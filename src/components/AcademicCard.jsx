@@ -18,8 +18,8 @@ export function AcademicCard({
           {degree}
         </h3>
 
-        <span className="text-xs sm:text-sm
-                         font-medium text-gray-500">
+        <span className="text-sm sm:text-sm
+                       font-medium text-gray-500">
           {period}
         </span>
       </div>

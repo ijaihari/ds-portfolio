@@ -14,7 +14,7 @@ export function ProjectsSection() {
         "NumPy",
         "Matplotlib",
         "Logistic Regression",
-        "EDA",
+        "EDA",        
       ],
       liveLink: "https://github.com/ijaihari",
       githubLink: "https://github.com/ijaihari",
