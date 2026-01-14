@@ -45,7 +45,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="hero-link"
           >
-            <FaFilePdf className="shrink-0 text-md sm:text-xl" /> Resume
+            <FaFilePdf className="shrink-0 text-sm sm:text-xl" /> Resume
           </a>
 
           <a
@@ -54,16 +54,16 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="hero-link"
           >
-            <FaLinkedin className="shrink-0 text-md sm:text-xl" /> LinkedIn
+            <FaLinkedin className="shrink-0 text-sm sm:text-xl" /> LinkedIn
           </a>
 
           <a
             href="https://github.com/ijaihari"
             target="_blank"
             rel="noopener noreferrer"
-            className="hero-link"
+            className="hero-link "
           >
-            <FaGithub  className="shrink-0 text-md sm:text-xl" /> GitHub
+            <FaGithub  className="shrink-0 text-sm sm:text-xl" /> GitHub
           </a>
 
         </div>

@@ -49,7 +49,7 @@ export function CertificationCard({
           mt-auto w-full text-center rounded-xl
           border border-black text-white bg-[#181717]
           hover:bg-white hover:text-black transition-all duration-300
-          py-2 text-xs font-semibold
+          py-2 text-sm font-semibold
         "
       >
         View Credentials

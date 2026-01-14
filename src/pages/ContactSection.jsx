@@ -56,7 +56,7 @@ export function ContactSection() {
     rounded-full
     bg-black text-white
     border border-black
-    text-xs font-semibold
+    text-sm font-semibold
     hover:bg-white hover:text-black
     transition-all duration-300
   "
@@ -171,7 +171,7 @@ export function ContactSection() {
                  rounded-2xl
                  bg-black text-white border border-black
                  px-8 py-2.5
-                 text-sm sm:text-base cursor-pointer
+                 text-sm cursor-pointer
                  font-semibold shadow-sm backdrop-blur-md
                  hover:bg-white hover:text-black transition-all duration-300"
                         >

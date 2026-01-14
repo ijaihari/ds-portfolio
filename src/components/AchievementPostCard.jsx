@@ -58,7 +58,7 @@ export function AchievementPostCard({
         className="
           mt-auto w-full text-center rounded-xl
           border border-gray-300
-          py-2 text-xs font-semibold
+          py-2 text-sm font-semibold
           hover:border-black transition-all duration-300
         "
       >

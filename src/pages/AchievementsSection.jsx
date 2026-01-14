@@ -134,7 +134,7 @@ export function AchievementsSection() {
                 mx-auto
                 block
                 rounded-2xl cursor-pointer
-                px-6 py-2.5
+                px-6 py-2.5 text-sm
                 border border-black text-white bg-[#181717] shadow-sm backdrop-blur-md
               hover:bg-white hover:text-black transition-all duration-300
               "
