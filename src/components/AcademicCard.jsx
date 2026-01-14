@@ -1,4 +1,4 @@
-export function AboutCard({
+export function AcademicCard({
   degree,
   institution,
   period,

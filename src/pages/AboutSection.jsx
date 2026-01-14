@@ -1,7 +1,8 @@
 import { SectionTitle } from "../components/SectionTitle";
 import { ProfileIntro } from "../components/ProfileIntro";
-import { AboutCard } from "../components/AboutCard";
+import { AcademicCard } from "../components/AcademicCard";
 import { SubTitle } from "../components/SubTitle";
+import { ProfessionalExperienceCard } from "../components/ProfessionalExperienceCard";
 
 export function AboutSection() {
     return (
@@ -35,10 +36,42 @@ export function AboutSection() {
                 {/* ===== Academic Background ===== */}
                 <div className="mt-16 lg:mt-20">
                     <SubTitle>
+                        Professional Experience
+                    </SubTitle>
+
+                    <ProfessionalExperienceCard
+                        role="Data Analyst Intern"
+                        experienceYears="6 months"
+                        company="ABC Analytics"
+                        period="Jun 2024 – Dec 2024"
+                        points={[
+                            "Built dashboards using Power BI and SQL",
+                            "Analyzed trends to support business decisions",
+                            "Presented insights to senior stakeholders",
+                        ]}
+                    />
+                    {/*  <ProfessionalExperienceCard
+                        role="Data Analyst Intern"
+                        experienceYears="6 months"
+                        company="ABC Analytics"
+                        period="Jun 2024 – Dec 2024"
+                        points={[
+                            "Built dashboards using Power BI and SQL",
+                            "Analyzed trends to support business decisions",
+                            "Presented insights to senior stakeholders",
+                        ]}
+                    /> */}
+
+
+                </div>
+
+                {/* ===== Academic Background ===== */}
+                <div className="mt-16 lg:mt-20">
+                    <SubTitle>
                         Academic Background
                     </SubTitle>
 
-                    <AboutCard
+                    <AcademicCard
                         degree="Bachelor of Engineering, EEE"
                         institution="Anna University, AAA College of Engineering and Technology"
                         period="August 2020 – June 2024"
