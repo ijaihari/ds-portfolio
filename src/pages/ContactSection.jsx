@@ -45,7 +45,7 @@ export function ContactSection() {
                     <ContactCard title="Social">
   {/* Top-right overlay button */}
   <a
-  href="https://x.com/ijaihari"
+  href="https://twitter.com/messages/compose?recipient_id=2008022900415352832"
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Message on X"

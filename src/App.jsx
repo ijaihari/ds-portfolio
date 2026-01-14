@@ -1,4 +1,5 @@
 
+import { Analytics } from "@vercel/analytics/react";
 import { AboutSection } from "./pages/AboutSection.jsx";
 import { AchievementsSection } from "./pages/AchievementsSection.jsx";
 import { ContactSection } from "./pages/ContactSection.jsx";
@@ -11,6 +12,7 @@ import { SkillsSection } from "./pages/SkillsSection.jsx";
 function App() {
   return (
     <div>
+      <Analytics/>
       <Navbar />
       <HeroSection />
       <AboutSection />
