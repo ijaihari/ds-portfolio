@@ -1,0 +1,84 @@
+import { SectionTitle } from "../components/SectionTitle";
+import { ProjectCard } from "../components/ProjectCard";
+
+export function ProjectsSection() {
+  const projects = [
+    {
+      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
+      description:
+        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
+      tech: [
+        "SQLite",
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Logistic Regression",
+        "EDA",
+      ],
+      liveLink: "https://github.com/ijaihari",
+      githubLink: "https://github.com/ijaihari",
+    },
+    {
+      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
+      description:
+        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
+      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
+      liveLink: "https://github.com/ijaihari",
+      githubLink: "https://github.com/ijaihari",
+    },
+     {
+      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
+      description:
+        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
+      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
+      liveLink: "https://github.com/ijaihari",
+      githubLink: "https://github.com/ijaihari",
+    },
+     {
+      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
+      description:
+        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
+      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
+      liveLink: "https://github.com/ijaihari",
+      githubLink: "https://github.com/ijaihari",
+    },
+     {
+      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
+      description:
+        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
+      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
+      liveLink: "https://github.com/ijaihari",
+      githubLink: "https://github.com/ijaihari",
+    },
+  ];
+
+  return (
+    <section
+      id="projects"
+      className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 scroll-mt-10"
+    >
+      <div className="max-w-6xl mx-auto">
+
+        <SectionTitle
+          title="Project Works"
+          subtitle="A collection of what I created"
+        />
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.title}
+              title={project.title}
+              description={project.description}
+              tech={project.tech}
+              liveLink={project.liveLink}
+              githubLink={project.githubLink}
+            />
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+}

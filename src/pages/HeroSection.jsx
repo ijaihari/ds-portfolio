@@ -36,8 +36,8 @@ export function HeroSection() {
           "I uncover patterns, build visual stories, and help transform data into confident decisions"
         </h2>
 
-        {/* Hero buttons */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 
+        {/* Hero buttons  grid-cols-1 sm: */}
+        <div className="grid grid-cols-3 gap-2 sm:gap-4 
                         w-full max-w-md sm:max-w-xl lg:max-w-2xl mx-auto">
           <a
             href="https://www.jaihari.dev"

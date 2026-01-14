@@ -144,11 +144,11 @@ export function ContactSection() {
                             type="submit"
                             className="w-fit mt-2
                  rounded-2xl
-                 bg-black text-white
+                 bg-black text-white border border-black
                  px-8 py-2.5
-                 text-sm sm:text-base
-                 font-semibold
-                 hover:opacity-90 transition"
+                 text-sm sm:text-base cursor-pointer
+                 font-semibold shadow-sm backdrop-blur-md
+                 hover:bg-white hover:text-black transition-all duration-300"
                         >
                             Send
                         </button>

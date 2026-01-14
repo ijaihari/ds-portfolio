@@ -15,8 +15,8 @@ body {
          text-sm font-semibold
          border-2 border-transparent
          transition-all duration-300
-         hover:bg-[#f5f6f8cf]
-         hover:border-[#e2e8f0c0];
+         hover:bg-white
+         hover:border-gray-200;
 }
 
 .mobile-nav-item {
@@ -48,5 +48,6 @@ body {
   @apply text-transparent bg-clip-text
          bg-[linear-gradient(90deg,#0096FF_0%,#BB64FF_35%,#F2416B_70%,#EB7500_100%)];
 }
+
 
 }
