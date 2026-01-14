@@ -4,7 +4,7 @@ import { FaFilePdf, FaLinkedin, FaGithub } from "react-icons/fa6";
 export function HeroSection() {
   return (
     <section id="home" className="flex items-center justify-center w-full sm:min-h-screen px-4 sm:px-6 scroll-mt-10">
-      <div className="w-full max-w-6xl flex flex-col items-center text-center pt-40 pb-20 sm:pt-0 sm:pb-0 leading-tight">
+      <div className="w-full max-w-6xl flex flex-col items-center text-center pt-40 pb-30 sm:pt-0 sm:pb-0 leading-tight">
 
         {/* Project link */}
         <a href="#" className="mb-5">
@@ -45,7 +45,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="hero-link"
           >
-            <FaFilePdf /> Resume
+            <FaFilePdf className="shrink-0 text-md sm:text-xl" /> Resume
           </a>
 
           <a
@@ -54,7 +54,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="hero-link"
           >
-            <FaLinkedin /> LinkedIn
+            <FaLinkedin className="shrink-0 text-md sm:text-xl" /> LinkedIn
           </a>
 
           <a
@@ -63,7 +63,7 @@ export function HeroSection() {
             rel="noopener noreferrer"
             className="hero-link"
           >
-            <FaGithub /> GitHub
+            <FaGithub  className="shrink-0 text-md sm:text-xl" /> GitHub
           </a>
 
         </div>

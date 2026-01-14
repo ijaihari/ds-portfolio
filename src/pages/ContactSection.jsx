@@ -43,41 +43,66 @@ export function ContactSection() {
 
                     {/* Social */}
                     <ContactCard title="Social">
-                        <div className="flex items-center gap-5 text-gray-600 text-2xl">
-                            <a
-                                href="https://github.com/ijaihari"
-                                target="_blank"
-                                className="hover:text-black transition"
-                                aria-label="GitHub"
-                            >
-                                <FaGithub />
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/ijaihari/"
-                                target="_blank"
-                                className="hover:text-black transition"
-                                aria-label="LinkedIn"
-                            >
-                                <FaLinkedinIn />
-                            </a>
-                            <a
-                                href="https://x.com/ijaihari"
-                                target="_blank"
-                                className="hover:text-black transition"
-                                aria-label="X"
-                            >
-                                <FaXTwitter />
-                            </a>
-                            <a
-                                href="https://instagram.com/ijaihari"
-                                target="_blank"
-                                className="hover:text-black transition"
-                                aria-label="Instagram"
-                            >
-                                <FaInstagram />
-                            </a>
-                        </div>
-                    </ContactCard>
+  {/* Top-right overlay button */}
+  <a
+  href="https://x.com/ijaihari"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Message on X"
+  className="
+    absolute top-4 right-4
+    flex items-center gap-2
+    px-3 py-1.5
+    rounded-full
+    bg-black text-white
+    border border-black
+    text-xs font-semibold
+    hover:bg-white hover:text-black
+    transition-all duration-300
+  "
+>
+  Message on <FaXTwitter size={14} />
+</a>
+
+
+
+  {/* Social icons */}
+  <div className="flex items-center gap-5 text-gray-600 text-2xl">
+    <a
+      href="https://github.com/ijaihari"
+      target="_blank"
+      className="hover:text-black transition"
+      aria-label="GitHub"
+    >
+      <FaGithub />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/ijaihari/"
+      target="_blank"
+      className="hover:text-black transition"
+      aria-label="LinkedIn"
+    >
+      <FaLinkedinIn />
+    </a>
+    <a
+      href="https://x.com/ijaihari"
+      target="_blank"
+      className="hover:text-black transition"
+      aria-label="X"
+    >
+      <FaXTwitter />
+    </a>
+    <a
+      href="https://instagram.com/ijaihari"
+      target="_blank"
+      className="hover:text-black transition"
+      aria-label="Instagram"
+    >
+      <FaInstagram />
+    </a>
+  </div>
+</ContactCard>
+
 
                 </div>
 
@@ -101,7 +126,7 @@ export function ContactSection() {
                             name="redirect"
                             value="https://jaihari.dev/thank-you"
                         /> */}
-
+                        <input type="hidden" name="subject" value="New message from DS Portfolio" />
                         {/* Name + Email */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <input
@@ -128,12 +153,12 @@ export function ContactSection() {
                         {/* Message */}
                         <textarea
                             name="message" id="message"
-                            rows="5"
+                            rows="9"
                             placeholder="Write your message"
                             required
                             className="w-full rounded-xl border border-gray-300
-                 px-4 py-3 text-sm sm:text-base
-                 focus:outline-none focus:border-gray-500 resize-none"
+                 px-4 py-3 text-sm sm:text-base resize-y
+                 focus:outline-none focus:border-gray-500"
                         />
 
                         {/* Optional: spam protection */}
