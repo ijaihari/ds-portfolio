@@ -46,7 +46,7 @@ export function ProfileIntro({ imageSrc, description }) {
                     </p>
 
                     {/* Certified */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                    {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                         {Certified.map((cert) => (
                             <CertifiedCard
                                 key={cert.id}
@@ -57,7 +57,7 @@ export function ProfileIntro({ imageSrc, description }) {
                                 credLink={cert.credLink}
                             />
                         ))}
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

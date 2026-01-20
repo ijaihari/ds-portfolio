@@ -23,20 +23,19 @@ export function AboutSection() {
                 <ProfileIntro
                     imageSrc="/bw.png"
                     description={`Hi, I'm Jai Hari Nataraj, and I work with data to make things easier to understand.
-                    I use tools like Excel, SQL, SQLite, Python, Pandas, NumPy, Power BI, Looker Studio, and Cognos Analytics
+                    I use tools like Excel, SQL, Python, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Looker Studio and Cognos Analytics
                     to clean data, build dashboards, and create insights.
 
-                    Right now, I’m learning the IBM Data Analyst Professional Certificate and Cisco Data Analytics Essentials,
-                    applying what I learn through real-world projects.
+                    Right now, I’m learning the IBM Data Analyst Professional Certificate and applying what I learn through real-world projects.
 
-                    I’m also building a stronger foundation in data science, including statistical methods,
-                    machine learning fundamentals, and advanced Python workflows.`}
+                    I’m also building a stronger foundation in data analytics, including statistical methods, machine learning fundamentals, and advanced Python workflows.`}
                 />
 
-                {/* ===== Academic Background ===== */}
-                <div className="mt-16 lg:mt-20">
+                {/* ===== Professional Journey ===== */}
+
+                {/* <div className="mt-16 lg:mt-20">
                     <SubTitle>
-                        Professional Experience
+                        Professional Journey
                     </SubTitle>
 
                     <ProfessionalExperienceCard
@@ -50,20 +49,7 @@ export function AboutSection() {
                             "Presented insights to senior stakeholders",
                         ]}
                     />
-                    {/*  <ProfessionalExperienceCard
-                        role="Data Analyst Intern"
-                        experienceYears="6 months"
-                        company="ABC Analytics"
-                        period="Jun 2024 – Dec 2024"
-                        points={[
-                            "Built dashboards using Power BI and SQL",
-                            "Analyzed trends to support business decisions",
-                            "Presented insights to senior stakeholders",
-                        ]}
-                    /> */}
-
-
-                </div>
+                </div> */}
 
                 {/* ===== Academic Background ===== */}
                 <div className="mt-16 lg:mt-20">

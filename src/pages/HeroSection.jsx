@@ -7,7 +7,7 @@ export function HeroSection() {
       <div className="w-full max-w-6xl flex flex-col items-center text-center pt-40 pb-20 sm:pt-0 sm:pb-0 leading-tight">
 
         {/* Project link */}
-        <a href="#" className="mb-5">
+        <a href="https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis" className="mb-5">
           <p className="flex items-center justify-center gap-1 
                         text-sm sm:text-lg 
                         font-semibold italic underline tracking-tight">

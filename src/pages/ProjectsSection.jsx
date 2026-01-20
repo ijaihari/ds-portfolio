@@ -16,40 +16,8 @@ export function ProjectsSection() {
         "Logistic Regression",
         "EDA",        
       ],
-      liveLink: "https://github.com/ijaihari",
-      githubLink: "https://github.com/ijaihari",
-    },
-    {
-      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
-      description:
-        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
-      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
-      liveLink: "https://github.com/ijaihari",
-      githubLink: "https://github.com/ijaihari",
-    },
-     {
-      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
-      description:
-        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
-      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
-      liveLink: "https://github.com/ijaihari",
-      githubLink: "https://github.com/ijaihari",
-    },
-     {
-      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
-      description:
-        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
-      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
-      liveLink: "https://github.com/ijaihari",
-      githubLink: "https://github.com/ijaihari",
-    },
-     {
-      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
-      description:
-        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
-      tech: ["Python", "Pandas", "Logistic Regression", "EDA"],
-      liveLink: "https://github.com/ijaihari",
-      githubLink: "https://github.com/ijaihari",
+      liveLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis/blob/main/notebooks/Tamil%20Nadu%20SIR%202026%20Draft%20Voter%20Roll%20Impact%20Analysis.ipynb",
+      githubLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis",
     },
   ];
 
