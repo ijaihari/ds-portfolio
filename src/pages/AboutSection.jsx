@@ -21,7 +21,7 @@ export function AboutSection() {
 
                 {/* ===== Profile Intro ===== */}
                 <ProfileIntro
-                    imageSrc="/profile.png"
+                    imageSrc="/bw.png"
                     description={`Hi, I'm Jai Hari Nataraj, and I work with data to make things easier to understand.
                     I use tools like Excel, SQL, Python, Pandas, NumPy, Matplotlib, Seaborn, Power BI and Cognos Analytics
                     to clean data, build dashboards, and create insights.

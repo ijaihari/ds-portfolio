@@ -21,11 +21,11 @@ export function ProfileIntro({ imageSrc, description }) {
                       items-start">
 
                 {/* LEFT: Profile image */}
-                {/* <img
+                <img
                     src={imageSrc}
                     alt="Jai Hari Nataraj"
                     className="
-                    w-full max-w-300px aspect-square     
+                    w-full max-w-100px aspect-square     
                     sm:w-20 sm:h-20
                     lg:w-24 lg:h-24                    
                     object-cover
@@ -33,10 +33,10 @@ export function ProfileIntro({ imageSrc, description }) {
                     shrink-0
                     mx-auto sm:mx-0"
                     loading="lazy"
-                /> */}
+                />
                 
                 {/* LEFT: Profile image */}
-                <img
+                {/* <img
                     src={imageSrc}
                     alt="Jai Hari Nataraj"
                     className="
@@ -48,7 +48,7 @@ export function ProfileIntro({ imageSrc, description }) {
                                 shrink-0
                             "
                     loading="lazy"
-                />
+                /> */}
 
                 {/* RIGHT: Description + Certified */}
                 <div className="flex flex-col gap-6">
