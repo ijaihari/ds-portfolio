@@ -6,8 +6,8 @@ export function ProfileIntro({ imageSrc, description }) {
             id: 1,
             title: "IBM Certified Data Analyst Professional",
             date: "January 2026",
-            image: "/badges/data-analysis-with-python.png",
-            credLink: "https://www.credly.com/",
+            image: "/badges/",
+            credLink: "",
         }
 
     ];
@@ -20,12 +20,12 @@ export function ProfileIntro({ imageSrc, description }) {
                       gap-4 sm:gap-6 lg:gap-10 
                       items-start">
 
-                {/* LEFT: Profile image */}
-                <img
+                {/* LEFT: Profile image   */}
+                {/* <img
                     src={imageSrc}
                     alt="Jai Hari Nataraj"
                     className="
-                    w-full max-w-100px aspect-square     
+                    w-full max-w-100px aspect-square
                     sm:w-20 sm:h-20
                     lg:w-24 lg:h-24                    
                     object-cover
@@ -33,10 +33,10 @@ export function ProfileIntro({ imageSrc, description }) {
                     shrink-0
                     mx-auto sm:mx-0"
                     loading="lazy"
-                />
+                /> */}
                 
                 {/* LEFT: Profile image */}
-                {/* <img
+                <img
                     src={imageSrc}
                     alt="Jai Hari Nataraj"
                     className="
@@ -48,7 +48,7 @@ export function ProfileIntro({ imageSrc, description }) {
                                 shrink-0
                             "
                     loading="lazy"
-                /> */}
+                />
 
                 {/* RIGHT: Description + Certified */}
                 <div className="flex flex-col gap-6">
