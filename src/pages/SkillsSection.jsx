@@ -4,18 +4,21 @@ import { SkillPills } from "../components/SkillPills";
 export function SkillsSection() {
     const skillsData = [
         {
-            title: "Data Analysis & Processing",
+            title: "Data Manipulation & Analysis",
             skills: ["Excel", "SQL", "SQLite", "Python", "Pandas", "NumPy"],
         },
         {
             title: "Data Visualization",
             skills: [
                 "Power BI",
-                "Looker Studio",
                 "Cognos Analytics",
                 "Matplotlib",
                 "Seaborn",
             ],
+        },
+        {
+            title: "Applied Machine Learning",
+            skills: ["Linear Regression", "Logistic Regression"]
         },
         {
             title: "Statistics & Analytics",

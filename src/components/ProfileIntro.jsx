@@ -21,7 +21,7 @@ export function ProfileIntro({ imageSrc, description }) {
                       items-start">
 
                 {/* LEFT: Profile image */}
-                <img
+                {/* <img
                     src={imageSrc}
                     alt="Jai Hari Nataraj"
                     className="
@@ -32,6 +32,21 @@ export function ProfileIntro({ imageSrc, description }) {
                     sm:rounded-full        
                     shrink-0
                     mx-auto sm:mx-0"
+                    loading="lazy"
+                /> */}
+                
+                {/* LEFT: Profile image */}
+                <img
+                    src={imageSrc}
+                    alt="Jai Hari Nataraj"
+                    className="
+                                hidden lg:block
+                                w-full max-w-300px aspect-square
+                                lg:w-24 lg:h-24
+                                object-cover
+                                rounded-full
+                                shrink-0
+                            "
                     loading="lazy"
                 />
 
