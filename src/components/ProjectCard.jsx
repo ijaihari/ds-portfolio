@@ -82,8 +82,8 @@ export function ProjectCard({
                 text-sm font-semibold hover:shadow-sm hover:backdrop-blur-md
               "
                         >
-                            <FaGithub className="shrink-0 text-sm sm:text-xl" />
-                            GitHub Repository
+                            <FaGithub className="text-lg" />
+                            GitHub
                         </a>
                     )}
 
