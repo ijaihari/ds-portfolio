@@ -4,10 +4,10 @@ import { FaFilePdf, FaLinkedin, FaGithub } from "react-icons/fa6";
 export function HeroSection() {
   return (
     <section id="home" className="flex items-center justify-center w-full sm:min-h-screen px-4 sm:px-6 scroll-mt-10">
-      <div className="w-full max-w-6xl flex flex-col items-center text-center pt-45 pb-25 sm:pt-0 sm:pb-0 leading-tight">
+      <div className="w-full max-w-6xl flex flex-col items-center text-center pt-30 pb-5 sm:pt-0 sm:pb-0 leading-tight">
 
         {/* Project link */}
-        <a href="https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis" className="mb-5">
+        <a href="https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers" className="mb-5">
           <p className="flex items-center justify-center gap-1 
                         text-sm sm:text-lg 
                         font-semibold italic underline tracking-tight">
@@ -36,11 +36,11 @@ export function HeroSection() {
           "I uncover patterns, build visual stories, and help transform data into confident decisions"
         </h2>
 
-        {/* Hero buttons  grid-cols-1 sm: */}
-        <div className="grid grid-cols-3 gap-2 sm:gap-4 
+        {/* Hero buttons   */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 
                         w-full max-w-md sm:max-w-xl lg:max-w-2xl mx-auto">
           <a
-            href="https://www.jaihari.dev"
+            href="resume\JaiHari-Data-Analyst-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-link"
