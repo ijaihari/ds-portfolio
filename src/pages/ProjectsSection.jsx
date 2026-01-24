@@ -18,6 +18,16 @@ export function ProjectsSection() {
       liveLink: "https://github.com/ijaihari/Zomato-Restaurant-Data-Analytics-Customer-Behavior-Analysis/blob/main/Zomato%20Restaurant%20Data%20Analytics%20-%20Customer%20Behavior%20Analysis.ipynb",
       githubLink: "https://github.com/ijaihari/Zomato-Restaurant-Data-Analytics-Customer-Behavior-Analysis",
     },
+     {
+      title: "End-to-End Customer Churn Analysis for Bank Customers",
+      description:
+        "Microsoft Power BI based customer churn analysis for bank customers to uncover churn drivers and support data-driven decision making.",
+      tech: [
+       "Power BI", "Power Query", "Data Modeling (Star Schema)", "DAX", "Microsoft Excel", "CSV"        
+      ],
+      liveLink: "https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers/blob/main/Readme.md",
+      githubLink: "https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers",
+    },
     {
       title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
       description:

@@ -83,7 +83,7 @@ export function ProjectCard({
               "
                         >
                             <FaGithub className="text-lg" />
-                            GitHub
+                            GitHub Repository
                         </a>
                     )}
 
