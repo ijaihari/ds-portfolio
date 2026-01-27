@@ -54,10 +54,9 @@ export function ContactSection() {
     flex items-center gap-2
     px-3 py-1.5
     rounded-xl
-    bg-black text-white
-    border border-black
+    border border-gray-300 bg-gray-100 text-gray-800 
     text-sm font-semibold
-    hover:bg-white hover:text-black
+    hover:border-gray-800 
     transition-all duration-300
   "
 >

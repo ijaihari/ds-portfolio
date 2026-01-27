@@ -51,8 +51,9 @@ export function CertificationCard({
             rel="noopener noreferrer"
             className="
               w-full text-center rounded-xl
-              border border-gray-300 text-black bg-white
-              hover:border-black transition-all duration-300
+              border border-black text-white bg-[#181717] shadow-sm backdrop-blur-md
+              hover:bg-white hover:text-black
+             transition-all duration-300
               py-2 text-sm font-semibold
             "
           >
@@ -66,9 +67,8 @@ export function CertificationCard({
           target="_blank"
           rel="noopener noreferrer"
           className="
-            w-full text-center rounded-xl
-            border border-blue-800 text-white bg-blue-800
-             hover:bg-blue-700 transition-all duration-300
+            w-full text-center  border border-gray-300 bg-gray-100 text-gray-800
+              hover:border-gray-800   rounded-xl transition-all duration-300
             py-2 text-sm font-semibold
           "
         >
