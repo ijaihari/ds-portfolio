@@ -2,38 +2,111 @@ import { SectionTitle } from "../components/SectionTitle";
 import { SkillPills } from "../components/SkillPills";
 
 export function SkillsSection() {
-    const skillsData = [
-        {
-            title: "Data Manipulation & Analysis",
-            skills: ["Excel", "SQL", "SQLite", "Python", "Pandas", "NumPy"],
-        },
-        {
-            title: "Data Visualization",
-            skills: [
-                "Power BI",
-                "Cognos Analytics",
-                "Matplotlib",
-                "Seaborn",
-            ],
-        },
-        {
-            title: "Applied Machine Learning",
-            skills: ["Linear Regression", "Logistic Regression"]
-        },
-        {
-            title: "Statistics & Analytics",
-            skills: [
-                "Exploratory Data Analysis",
-                "Hypothesis Testing",
-                "Descriptive Statistics",
-                "Inferential Statistics",
-            ],
-        },
-        {
-            title: "Tools & Workflow",
-            skills: ["Git", "GitHub", "Jupyter Notebook", "VS Code",],
-        },
-    ];
+    
+const skillsData = [
+    {
+        title: "Programming & Querying",
+        skills: ["Python", "SQL", "SQLite"],
+    },
+    {
+        title: "Analytical Libraries",
+        skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    },
+    {
+        title: "BI & Reporting",
+        skills: ["Power BI", "Microsoft Excel"],
+    },
+    {
+        title: "Statistics & Analytics",
+        skills: [
+            "Exploratory Data Analysis",
+            "Hypothesis Testing",
+            "Descriptive Statistics",
+            "Inferential Statistics",            
+        ],
+    },
+    {
+        title: "Version Control & Tools",
+        skills: ["Git", "GitHub", "Jupyter Notebook"],
+    },
+];
+
+/* const skillsData = [
+    {
+        title: "Programming & Querying",
+        skills: ["Python", "SQL", "SQLite"],
+    },
+    {
+        title: "Analytical Libraries",
+        skills: [
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn",
+            "scikit-learn",
+        ],
+    },
+    {
+        title: "BI & Reporting",
+        skills: [
+            "Power BI",
+            "Microsoft Excel",
+        ],
+    },
+    {
+        title: "Statistics & Analytics",
+        skills: [
+            "Exploratory Data Analysis (EDA)",
+            "Descriptive Statistics",
+            "Inferential Statistics",
+            "Probability Distributions",
+            "Hypothesis Testing",
+            "A/B Testing",
+        ],
+    },
+    {
+        title: "Machine Learning",
+        skills: [
+            "Linear Regression",
+            "Logistic Regression",
+            "Decision Trees",
+            "Random Forest",
+            "Feature Engineering",
+            "Model Evaluation (Accuracy, Precision, Recall, F1, ROC-AUC)",
+            "Cross-Validation",
+        ],
+    },
+    {
+        title: "Time Series & Forecasting",
+        skills: [
+            "Trend & Seasonality Analysis",
+            "Time Series Decomposition",
+            "Moving Averages",
+            "ARIMA (Basics)",
+            "Demand & Sales Forecasting",
+        ],
+    },
+    {
+        title: "Data Storytelling & Business Analysis",
+        skills: [
+            "KPI Analysis",
+            "Business Insights & Recommendations",
+            "Dashboard Design",
+            "Stakeholder Communication",
+            "Data-Driven Decision Making",
+        ],
+    },
+    {
+        title: "Version Control & Tools",
+        skills: [
+            "Git",
+            "GitHub",
+            "Jupyter Notebook",
+            "VS Code",
+        ],
+    },
+];
+ */
 
     return (
         <section
