@@ -19,7 +19,7 @@ export function Footer() {
             leading-relaxed
           "
         >
-          © {year} — Designed &amp; Developed by{" "}
+          © {year} - Designed &amp; Developed by{" "}
           <a
             href="https://www.linkedin.com/in/ijaihari/"
             target="_blank"
