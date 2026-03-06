@@ -30,14 +30,14 @@ export function ContactSection() {
 
                     {/* Reach Out */}
                     <ContactCard title="Reach Out">
-                        <p className="text-sm sm:text-base text-gray-600">
-                            Email:
-                            <a
-                                href="mailto:sjaiharinataraj@gmail.com"
-                                className="ml-1 text-black font-medium hover:underline"
+                        <p className="text-sm sm:text-base text-gray-700">
+                            Email: sjaiharinataraj [@] gmail [dot] com
+                            {/* <a
+                                href=""
+                                className="text-black font-medium hover:underline"
                             >
-                                sjaiharinataraj@gmail.com
-                            </a>
+                                sjaiharinataraj [@] gmail [dot] com
+                            </a> */}
                         </p>
                     </ContactCard>
 
