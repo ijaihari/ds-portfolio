@@ -49,7 +49,7 @@ export function AboutSection() {
                             "Presented insights to senior stakeholders",
                         ]}
                     />
-                </div> */}
+                </div> */} 
 
                 {/* ===== Academic Background ===== */}
                 <div className="mt-16 lg:mt-20">

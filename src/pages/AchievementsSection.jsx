@@ -6,47 +6,22 @@ import { AchievementPostCard } from "../components/AchievementPostCard";
 export function AchievementsSection() {
   const certifications = [
     {
-      title: "Excel Basics for Data Analytics",
+      title: "IBM Data Analyst Professional",
       issuer: "IBM",
-      date: "Nov 8, 2025",
-      image: "certificates/excel-essentials.png",
-      certificateLink: "https://coursera.org/share/c636f520c7f90c31ff6d9ee3827af6c7",
-      credLink: "https://www.credly.com/badges/065a731d-549c-4b92-9879-f72354c8c6ba/public_url",
-      
-    },
-    {
-      title: "Data Visualization and Dashboards with Excel and Cognos",
-      issuer: "IBM",
-      date: "Nov 18, 2025",
-      image: "certificates/data-visual-dashboard.png",
-      certificateLink: "https://coursera.org/share/3ec21cfb061cce831446f4b4419f8e2c",
-      credLink: "https://www.credly.com/badges/a4e96e38-19d0-4861-9f79-35c5c74a807a/public_url",
-    },
-    {
-      title: "Python for Data Science, AI & Development",
-      issuer: "IBM",
-      date: "Nov 27, 2025",
-      image: "certificates/python-data-science.png",
-      certificateLink: "https://coursera.org/share/c4a910a480dd21b18e614ea18c2ece1a",
-      credLink: "https://www.credly.com/badges/5f87b603-5d6f-416c-86d0-b9f68b725632/public_url",
-    },
-    {
-      title: "Databases and SQL for Data Science with Python",
-      issuer: "IBM",
-      date: "Dec 27, 2025",
-      image: "certificates/sql.png",
-      certificateLink: "https://coursera.org/share/e5d1fbd7647733349b854c85056dc874",
-      credLink: "https://www.credly.com/badges/d7dbf3a2-b382-4091-a568-82d5c4290eed/public_url",
-    },
-    {
-      title: "Data Analysis with Python",
-      issuer: "IBM",
-      date: "Dec 27, 2025",
-      image: "certificates/data-analysis.png",
-      certificateLink: "https://coursera.org/share/c555f7988e274c89b197b6ee77aa08c8",
-      credLink: "https://www.credly.com/badges/5fba9f3d-9df8-45ab-ba82-b420b8f540d7/public_url",
-    },
+      date: "March 23, 2026",
+      image: "certificates/ibm_da.png",
+      certificateLink: "https://coursera.org/share/fe28efd4ba08bee5b3a0ecf8c050f393",
+      credLink: "https://www.credly.com/badges/24599382-1740-49db-9744-6ab75d84d3cc/public_url",
 
+    },{
+      title: "Microsoft Certified: Azure Fundamentals",
+      issuer: "Microsoft",
+      date: "May 22, 2023",
+      image: "certificates/az900.png",
+      certificateLink: "https://learn.microsoft.com/api/credentials/share/en-us/ijaihari/4C0B7063BC4F3066?sharingId=62199EAB5ADCB2FD",
+      credLink: "https://www.credly.com/badges/10889d36-5636-4614-b989-514ffc7467e5/public_url",
+
+    },
   ];
 
   const achievements = [
@@ -57,42 +32,6 @@ export function AchievementsSection() {
       image: "certificates/image.png",
       postLink: "",
     },
-    {
-      title: "Completed IBM Data Analyst Program",
-      description: "Shared my journey and key takeaways.",
-      date: "March 2025",
-      image: "certificates/image.png",
-      postLink: "",
-    },
-    {
-      title: "Completed IBM Data Analyst Program",
-      description: "Shared my journey and key takeaways.",
-      date: "March 2025",
-      image: "certificates/image.png",
-      postLink: "",
-    },
-    {
-      title: "Completed IBM Data Analyst Program",
-      description: "Shared my journey and key takeaways.",
-      date: "March 2025",
-      image: "certificates/image.png",
-      postLink: "",
-    },
-    {
-      title: "Completed IBM Data Analyst Program",
-      description: "Shared my journey and key takeaways.",
-      date: "March 2025",
-      image: "certificates/image.png",
-      postLink: "",
-    },
-    {
-      title: "Completed IBM Data Analyst Program",
-      description: "Shared my journey and key takeaways.",
-      date: "March 2025",
-      image: "certificates/image.png",
-      postLink: "",
-    },
-
   ];
 
   // 👇 show 1 row initially = 3 cards
