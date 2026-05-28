@@ -4,7 +4,6 @@ import {
     FaGithub,
     FaLinkedinIn,
     FaXTwitter,
-    FaInstagram,
 } from "react-icons/fa6";
 
 export function ContactSection() {
@@ -90,14 +89,6 @@ export function ContactSection() {
       aria-label="X"
     >
       <FaXTwitter />
-    </a>
-    <a
-      href="https://instagram.com/ijaihari"
-      target="_blank"
-      className="hover:text-black transition"
-      aria-label="Instagram"
-    >
-      <FaInstagram />
     </a>
   </div>
 </ContactCard>
