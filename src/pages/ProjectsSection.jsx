@@ -4,6 +4,32 @@ import { ProjectCard } from "../components/ProjectCard";
 export function ProjectsSection() {
   const projects = [
     {
+      title: "Wind Turbine SCADA Performance Analytics",
+      description:
+        "Developed an interactive Power BI dashboard to analyze real-world Wind Turbine SCADA data and monitor turbine performance, energy generation, operational efficiency, and downtime trends.",
+      tech: [
+        "Power BI", "Power Query", "DAX", "Microsoft Excel", "CSV"     
+      ],
+      liveLink: "https://github.com/ijaihari/Wind-Turbine-SCADA-Performance-Analytics/blob/main/readme.md",
+      githubLink: "https://github.com/ijaihari/Wind-Turbine-SCADA-Performance-Analytics",
+    },
+    {
+      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
+      description:
+        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
+      tech: [
+        "SQLite",
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Logistic Regression",
+        "EDA",        
+      ],
+      liveLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis/blob/main/notebooks/Tamil%20Nadu%20SIR%202026%20Draft%20Voter%20Roll%20Impact%20Analysis.ipynb",
+      githubLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis",
+    },
+    {
       title: "Zomato Restaurant Data Analytics - Customer Behavior Analysis",
       description:
         " Analyzed Zomato restaurant data using Python to explore patterns in customer preferences, restaurant categories, pricing ranges, and ordering modes through exploratory data analysis",
@@ -28,22 +54,7 @@ export function ProjectsSection() {
       liveLink: "https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers/blob/main/Readme.md",
       githubLink: "https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers",
     },
-    {
-      title: "Tamil Nadu SIR 2026 – Voter Roll Impact Analysis",
-      description:
-        "Analyzed constituency-level voter roll changes using statistical methods and machine learning models to uncover patterns and data anomalies.",
-      tech: [
-        "SQLite",
-        "Python",
-        "Pandas",
-        "NumPy",
-        "Matplotlib",
-        "Logistic Regression",
-        "EDA",        
-      ],
-      liveLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis/blob/main/notebooks/Tamil%20Nadu%20SIR%202026%20Draft%20Voter%20Roll%20Impact%20Analysis.ipynb",
-      githubLink: "https://github.com/ijaihari/Tamil-Nadu-SIR-2026-Draft-Voter-Roll-Impact-Analysis",
-    },
+    
   ];
 
   return (

@@ -7,7 +7,7 @@ export function HeroSection() {
       <div className="w-full max-w-6xl flex flex-col items-center text-center pt-30 pb-5 sm:pt-0 sm:pb-0 leading-tight">
 
         {/* Project link */}
-        <a href="https://github.com/ijaihari/Customer-Churn-Analysis-for-Bank-Customers" className="mb-5">
+        <a href="https://github.com/ijaihari/Wind-Turbine-SCADA-Performance-Analytics"  target="_blank" className="mb-5">
           <p className="flex items-center justify-center gap-1 
                         text-sm sm:text-lg 
                         font-semibold italic underline tracking-tight">
