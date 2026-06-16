@@ -3,6 +3,15 @@ import { ProjectCard } from "../components/ProjectCard";
 
 export function ProjectsSection() {
   const projects = [
+     {
+      title: "Wind Farm KPI & Contractual SLA Monitoring System",
+      description:"Developed a Wind Farm KPI & Contractual SLA Monitoring System to analyze turbine availability, energy production, and contractual performance metrics, providing real-time visibility into SLA compliance and site-level operational performance through interactive dashboards.",
+      tech: [
+        "Microsoft Excel", "Pivot Tables", "KPI Dashboard"    
+      ],
+      liveLink: "https://github.com/ijaihari/Wind-Farm-KPI-Contractual-SLA-Monitoring-System/blob/main/README.md",
+      githubLink: "https://github.com/ijaihari/Wind-Farm-KPI-Contractual-SLA-Monitoring-System",
+    },
     {
       title: "Wind Turbine SCADA Performance Analytics",
       description:

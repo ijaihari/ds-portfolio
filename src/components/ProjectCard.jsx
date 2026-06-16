@@ -30,7 +30,7 @@ export function ProjectCard({
             )}
 
             {/* Description */}
-            <p className="text-sm sm:text-base text-gray-600 mb-4">
+            <p className="text-sm sm:text-base text-gray-600 text-justify mb-4">
                 {description}
             </p>
 
